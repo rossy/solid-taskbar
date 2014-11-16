@@ -23,7 +23,7 @@ taskbars.
 Building
 --------
 
-The program requires mingw-w64 GCC and GNU Make. The easiest way to get them is
+The build requires mingw-w64 GCC and GNU Make. The easiest way to get them is
 through the [MSYS2][2] project. To build, just run ``make``.
 
 [2]: https://msys2.github.io/

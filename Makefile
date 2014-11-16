@@ -10,7 +10,7 @@ DEFS = -D_WIN32_WINNT=0x0602 -DNO_CRT
 SRC = solid-taskbar.c
 EXE = solid-taskbar.exe
 
-CHOST != $(CXX) -dumpmachine
+CHOST != $(CC) -dumpmachine
 ifneq (,$(findstring i686-,$(CHOST)))
 LDFLAGS += -Wl,-e,_entry@0
 endif
